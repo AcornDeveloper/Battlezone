@@ -1,0 +1,14 @@
+To whom in may concern,
+
+As part of the 8-bit retro scene these days I have put together a nearly finished conversion of Battlezone for the BBC micro etc, that I would like to make free of
+charge to members of the Acorn community to enjoythis game on their own platform. Since you own the copyright what would be your position on this?
+
+A Battlezone conversion is something I have wanted to do since the mid-80s when I nearly got the contract from Atarisoft to do so, although I did convert Tempest for
+them at the time to the BBC micro/Electron.
+
+The current conversion is a few months off being complete and is a stand alone 8-bit version with facilities to tap into an 32-bit ARM co-processor as a "mathbox" as per
+the original arcade machine to perform certain calculations.
+
+Your thoughts and instructions on the matter would be most apperciated.
+
+Thanks in advance.

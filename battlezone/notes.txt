@@ -1,0 +1,41 @@
++-----------------------------------------------------------------+
+| atari battlezone notes                                          |
+|-----------------------------------------------------------------|
+| disc use                                                        |
+|-----------------------------------------------------------------|
+| disc load/save of high scores/service settings requires page    |
+| at &0e00 i.e. a dfs that does not require user memory           |
+|-----------------------------------------------------------------|
+| arm second processor                                            |
+|-----------------------------------------------------------------|
+| for bbc machines that have an arm* second processor attached it |
+| will be detected on load up arm v7tdmi 64mhz\1ghz pitube second |
+| processor native mode confirmed working                         |
+|                                                                 |
+| default is start up with mathbox deactivated if arm present     |
+|                                                                 |
+| service menu will display an arm mathbox message s(low) and     |
+| f(ast) when activated, at present this is not used              |
+|                                                                 |
+| *arm evaluation will not work principally because the multiply  |
+| instruction is used extensively in the mathbox                  |
+|-----------------------------------------------------------------|
+| interesting stuff                                               |
+|-----------------------------------------------------------------|
+| all rotations of objects etc are around the y-axis only         |
+|                                                                 |
+| receding text is pre-tilted so all that needs calculating is    |
+| the view transform                                              |
+|                                                                 |
+| objects are culled in the view fustrum according to z-coor not  |
+| distance so as you rotate on the spot a distant object may be   |
+| viewable at the sides but not when in front                     |
+|                                                                 |
+| the tank/super tank may kill you on your last life but if your  |
+| shot kills it then you will get an extra life                   |
+|                                                                 |
+| tanks can shoot flying saucers but you will not get any points  |
+|                                                                 |
+| the exploding star pattern is the same as atari asteroids       |
+|                                                                 |
++-----------------------------------------------------------------+
