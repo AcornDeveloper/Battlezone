@@ -1,0 +1,93 @@
++-----------------------------------------------------------------+
+| atari battlezone notes                                          |
+|-----------------------------------------------------------------|
+| disc use                                                        |
+|-----------------------------------------------------------------|
+| disc load/save of high scores/service settings requires page    |
+| at &0e00 i.e. a dfs that does not require user memory           |
+| arm machines automatically have disc load/save                  |
+|-----------------------------------------------------------------|
+| arm second processor                                            |
+|-----------------------------------------------------------------|
+| for bbc machines that have an arm* second processor attached it |
+| will be detected on load up                                     |
+|                                                                 |
+| arm v7tdmi 64mhz/1ghz pitube second processor native mode       |
+| confirmed working                                               |
+|                                                                 |
+| default is to start up with mathbox deactivated even if the arm |
+| second processor is present and detected                        |
+|                                                                 |
+| the arm second processor is under the command of the 6502 host  |
+| machine reversing the usual arrangement                         |
+|                                                                 |
+| the arm mathbox takes on the three-dimensional functions that   |
+| the original hardware supported plus it will clip and render    |
+| nearly all the required line segments that were originally      |
+| executed by the atari vector generator                          |
+|                                                                 |
+| service menu will display a mathbox message                     |
+| 0 (not present)                                                 |
+| s (low)                                                         |
+| f (ast)                                                         |
+|                                                                 |
+| *arm evaluation will not work principally because the multiply  |
+| instruction is used extensively in the mathbox and it is not    |
+| present on this chip                                            |
+|-----------------------------------------------------------------|
+| cosmetic changes from the original arcade machine conversion    |
+| based on battlezone romset revision 2                           |
+|                                                                 |
+| service menu    - dip switch setting replaced using keys and    |
+|                   values displayed                              |
+|                   settings persisted to disc as per later       |
+|                   third-party add-on board using nvram          |
+|                 - coins required to play, adding a coin flips   |
+|                   the display into attract play so you can see  |
+|                   required coins message change to start game   |
+|                   maximum of 128 coins allowed                  |
+|                   use the service mode to change to free play   |
+| highscore       - rows not staggered from left to right and     |
+|                   each score over 100k will have a tank icon to |
+|                   the right of the initials                     |
+| battlezone text - no radar blip                                 |
+| model display   - testing for the mesh objects and routines     |
+| general         - some centering of on-screen text etc          |
+| system tests    - no system tests for ram/rom/mathbox           |
+|                   or 'watchdog' routine to detect lock-ups      |
+|-----------------------------------------------------------------|
+| interesting battlezone stuff                                    |
+|-----------------------------------------------------------------|
+| all rotations of objects etc are around the y-axis only         |
+|                                                                 |
+| receding text is pre-tilted so all that needs calculating are   |
+| the view transforms                                             |
+|                                                                 |
+| all objects are culled in the view fustrum according to         |
+| z-coordinate not distance so as you rotate on the spot a        |
+| distant object may be viewable at the sides but not when in     |
+| front                                                           |
+|                                                                 |
+| the tank/super tank may kill you on your last life but if your  |
+| shot kills it you will get an extra life if the score is enough |
+|                                                                 |
+| tanks can shoot flying saucers, you will see/hear this, but you |
+| will not get any points                                         |
+|                                                                 |
+| the exploding star pattern is the fourth one used in an earlier |
+| game atari asteroids                                            |
+|                                                                 |
+| the moon in the sky is actually the earth, the east coast of    |
+| australia was used as the model, this is because the original   |
+| game name was moontank                                          |
+|                                                                 |
+| on august 30, 1985, a world record of 23,000,000 points was     |
+| scored by david palmer during twin galaxies' video game masters |
+| tournament                                                      |
+|                                                                 |
+| high score save is a current add on board for original machines |
+| http://www.brasington.org/arcade/products/hs/bzone/             |
+|                                                                 |
+; specific dip-switch settings for battlezone taken from          |
+; https://www.arcade-museum.com/dipswitch-settings/7059.html      |
++-----------------------------------------------------------------+

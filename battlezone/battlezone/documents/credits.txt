@@ -1,0 +1,40 @@
++-----------------------------------------------------------------+
+| atari battlezone credits                                        |
+|-----------------------------------------------------------------|
+| all programmers ultimately stand on the shoulders of others to  |
+| produce their projects and this one is no different so here is  |
+| a resources list that proved invaluable to this project         |
+|-----------------------------------------------------------------|
+| beebem bbc emulator                                             |
+| http://www.mkw.me.uk/beebem/                                    |
+|                                                                 |
+| elkulator acorn electron emulator                               |
+| http://elkulator.acornelectron.co.uk/                           |
+|                                                                 |
+| c64 3d graphics                                                 |
+| https://codebase64.org/doku.php?id=magazines:chacking8          |
+|                                                                 |
+| c64 6502/6510 maths                                             |
+| https://codebase64.org/doku.php?id=base:6502_6510_maths         |
+|                                                                 |
+| beebasm by rich talbot-watkins                                  |
+| http://www.retrosoftware.co.uk/wiki/index.php?title=beebasm     |
+|                                                                 |
+| beebspriter by rich talbot-watkins                              |
+| http://www.retrosoftware.co.uk/wiki/index.php?title=beebspriter |
+|                                                                 |
+| 6502 signed/unsigned comparisons by bruce clark                 |
+| http://www.6502.org/tutorials/compare_beyond.html               |
+|                                                                 |
+| 6502 eight bit line drawing by rich talbot-watkins              |
+| http://www.retrosoftware.co.uk/forum/viewtopic.php?f=73&t=731   |
+|                                                                 |
+| 6502 disassembly projects by andy mcfadden                      |
+| https://6502disassembly.com/                                    |
+|                                                                 |
+| bbc/tube resources by jg harston                                |
+| http://mdfs.net/                                                |
+|                                                                 |
+| 6502 32bit division by garth wilson                             |
+| http://www.6502.org/source/integers/ummodfix/ummodfix.htm       |
++-----------------------------------------------------------------+

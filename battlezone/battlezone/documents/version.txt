@@ -1,0 +1,20 @@
++-----------------------------------------------------------------+
+| V1.2 05/09/2023                                                 |
+| - minor sound issue on master 128                               |
+|-----------------------------------------------------------------|
+| V1.1 20/03/2023                                                 |
+|-----------------------------------------------------------------|
+| - corrected rotation of player tank so that tracks moving in    |
+|   opposite directions give double rotational speed              |
+| - page all 16 rom sockets downwards for ram                     |
+| - check for copyright string performed from loader to cope with |
+|   ram having roms loaded i.e. mmfs                              |
+| - added extra page rom address writes for third party boards    |
+| - some sounds not flushed properly when running on hardware     |
+| - added game version number to service screen                   |
+| - corrected hardware sounds not present on emulator             |
+|-----------------------------------------------------------------|
+| V1.0 03/03/2023                                                 |
+|-----------------------------------------------------------------|
+| - initial release                                               |
++-----------------------------------------------------------------+
